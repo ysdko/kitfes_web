@@ -1,12 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import Demo from './components/Layout';
+import Koudaisai from './components/Home';
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+class App extends React.Component {
+render() {
+	return (
+		<BrowserRouter>
+			<Switch>
+				<Route exact path="/" component={Demo} />
+				<Route exact path="/test" component={Koudaisai} />
+			</Switch>
+		</BrowserRouter>
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+	)
+}
+}
+ReactDOM.render(<App />, document.getElementById('root'));
+serviceWorker.register();

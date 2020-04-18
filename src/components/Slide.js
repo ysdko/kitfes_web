@@ -13,7 +13,8 @@ const DummyCaption = ({ caption }) => (
     top: 300,
     fontSize: 38,
     padding: 55,
-    color:'white'
+    color: 'white'
+    
   }}>
     {caption}
   </div>
@@ -39,7 +40,11 @@ const slidesArray = [
 
 const Slideshow = () => {
   return (
-    <SmartSlider slides={slidesArray} autoSlide={true} autoSlideInterval={5000} />
+    <SmartSlider slides={slidesArray} autoSlide={true} autoSlideInterval={10000} style={{
+      display: 'flex',
+      marginLeft: 'auto',
+      marginRight: 'auto',
+      width: '50%'}} />
 
   )
 }

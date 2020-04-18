@@ -1,8 +1,15 @@
 import React, { Component } from 'react';
-import PersistentDrawerLeft from './Menu.js';
+import Menu from './Menu.js';
 import Slideshow from './Slide.js';
 import Grid from '@material-ui/core/Grid';
 import FeaturedPost from './FeaturedPost';
+import HeroText from './HeroText'
+import { Container } from '@material-ui/core';
+import Box from '@material-ui/core/Box';
+import Footer from './Footer'
+import Paper from '@material-ui/core/Paper';
+import { makeStyles } from '@material-ui/core/styles';
+import { kit1 } from '../img/kit1.jpg'
 // import { Container } from '@material-ui/core';
 // import SimpleContainer from './Container'
 
@@ -18,52 +25,151 @@ const featuredPosts = [
     image: 'https://source.unsplash.com/random',
     imageText: 'Image Text',
   },
-  {
-    title: 'Post title',
-    date: 'Nov 11',
+//   {
+//     title: 'Post title',
+//     date: 'Nov 11',
+//     description:
+//       'This is a wider card with supporting text below as a natural lead-in to additional content.',
+//     image: 'https://source.unsplash.com/random',
+//     imageText: 'Image Text',
+//   },
+// {
+//    title: 'Post title',
+//   date: 'Nov 11',
+//   description:
+//   'This is a wider card with supporting text below as a natural lead-in to additional content.',
+//   image: 'https://source.unsplash.com/random',
+//   imageText: 'Image Text',
+//   },
+//   {
+//     title: 'Post title',
+//     date: 'Nov 11',
+//     description:
+//       'This is a wider card with supporting text below as a natural lead-in to additional content.',
+//     image: 'https://source.unsplash.com/random',
+//     imageText: 'Image Text',
+//   }
+]
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    display: 'flex',
+  },
+  appBarSpacer: theme.mixins.toolbar,
+  content: {
+    flexGrow: 1,
+    height: '100vh',
+    overflow: 'auto',
+  },
+  box1: {
+    title: 'Featured post',
+    date: 'Nov 12',
     description:
       'This is a wider card with supporting text below as a natural lead-in to additional content.',
     image: 'https://source.unsplash.com/random',
     imageText: 'Image Text',
   },
-{
-   title: 'Post title',
-  date: 'Nov 11',
+}))
+
+const box1={
+  title: 'Featured post',
+  date: 'Nov 12',
   description:
   'This is a wider card with supporting text below as a natural lead-in to additional content.',
   image: 'https://source.unsplash.com/random',
   imageText: 'Image Text',
-  }
-]
+}
+const box2 = {
+  title: 'Featured post',
+  date: 'Nov 12',
+  description:
+    'This is a wider card with supporting text below as a natural lead-in to additional content.',
+  image: 'https://source.unsplash.com/random',
+  imageText: 'Image Text',
+}
 
-class Demo extends Component {
+const box3 = {
+  title: 'Featured post',
+  date: 'Nov 12',
+  description:
+    'This is a wider card with supporting text below as a natural lead-in to additional content.',
+  image: 'https://source.unsplash.com/random',
+  imageText: 'Image Text',
+}
+
+const box4 = {
+  title: 'Featured post',
+  date: 'Nov 12',
+  description:
+    'This is a wider card with supporting text below as a natural lead-in to additional content.',
+  image: 'https://source.unsplash.com/random',
+  imageText: 'Image Text',
+}
+export default function Demo() {
   // var data = new Date();
   //   var Hour = now.getHours();
   // var Min = now.getMinutes();
   // var Sec = now.getSeconds();
   // var now = new Date() 
-  render() {
+  const classes = useStyles();
     
-    let inputhtml = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2348.399957535865!2d130.67103232208675!3d33.653558267277496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35417fd4f7759849%3A0xb3b26a2563cccd95!2z6Kqy5aSW5rS75YuV5pa96KitICjjgrXjg7zjgq_jg6vmo58p!5e0!3m2!1sja!2sjp!4v1584590584348!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>'
-    return (
+  return (
 
-      <React.Fragment>
-          < PersistentDrawerLeft /> 
-          {/* <ButtonAppBar />  */}
-         {/* <SimpleContainer />  */} 
-        <Slideshow />
-        <div dangerouslySetInnerHTML={{ __html: inputhtml }} />
-        {/* <div><a href="https://twitter.com/kit_festival?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-lang="en" data-show-count="false">Follow @kit_festival</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div> */}
-        {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2348.399957535865!2d130.67103232208675!3d33.653558267277496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35417fd4f7759849%3A0xb3b26a2563cccd95!2z6Kqy5aSW5rS75YuV5pa96KitICjjgrXjg7zjgq_jg6vmo58p!5e0!3m2!1sja!2sjp!4v1584590584348!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> */}
-        <Grid container spacing={4}>
-          {featuredPosts.map(post => (
-            <FeaturedPost key={post.title} post={post} />
-          ))}
-        </Grid> 
+    <React.Fragment>
+      <div style={{ display: 'flex' }}>
+        <Menu />
+        <main className={classes.content}>
+          <div className={classes.appBarSpacer} />
+          <Container maxWidth="lg" className={classes.container}>
+            <Grid container spacing={3}>
+              {/* Chart */}
+              <Grid item xs={12} >
+                <Paper style={{
+                  backgroundImage: "url(/kit.jpg)", backgroundSize: "cover", 
+                  width: '100%',
+                  paddingTop: '35%'
+                  // paddingTop: '75%'
+                }}>
+                  {/* <HeroText /> */}
+                  <div style={{textAlign:'center'}} >
+                   <HeroText />
+                    </div>
+                  <Footer /> 
+                </Paper>
+                <img style={{ display: 'none' }} src={kit1} />
+                {/* <Slideshow /> */}
+              </Grid>
+              <Grid item xs={12} lg={12} >
+                <h1 style={{textAlign: 'center'}}>Topics</h1>
+              </Grid>
+              {/* Recent Orders */}
+              {/* <Grid item xs={12} lg={12} style={{ display: 'flex' }}> */}
+                <Grid item xs={12} lg={6} >
+                    <FeaturedPost post={box1} />
+                </Grid>
+              <Grid item xs={12} lg={6} >
+                  <FeaturedPost post={box2} />
+                </Grid>
+              <Grid item xs={12} lg={6} >
+                  <FeaturedPost post={box3} />
+                </Grid>
+              <Grid item xs={12} lg={6} >
+                  <FeaturedPost post={box4} />
+                </Grid>
+              </Grid>
+              {/* <FeaturedPost key={post.title} post={post} /> */}
+            <Box pt={4}>
+              <Footer />
+            </Box>
+          </Container>
+        </main>
+        {/* <ButtonAppBar />  */}
+        {/* <SimpleContainer />  */}
+        {/* <Slideshow /> */}
+
+      </div>
       
         
-      </React.Fragment>
-    )
-  }
+    </React.Fragment>
+  );
 }
-export default Demo;

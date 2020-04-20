@@ -28,16 +28,16 @@ export default function FeaturedPost(props) {
 
 	return (
 
-		<CardActionArea component="a" href="/test">
+		<CardActionArea component="a" href={post.url}>
 			<Card className={classes.card}>
 					<div className={classes.cardDetails}>
 						<CardContent>
 							<Typography component="h2" variant="h5">
 								{post.title}
 							</Typography>
-							<Typography variant="subtitle1" color="textSecondary">
+							{/* <Typography variant="subtitle1" color="textSecondary">
 								{post.date}
-							</Typography>
+							</Typography> */}
 							<Typography variant="subtitle1" paragraph>
 								{post.description}
 							</Typography>

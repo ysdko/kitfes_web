@@ -25,30 +25,6 @@ const featuredPosts = [
     image: 'https://source.unsplash.com/random',
     imageText: 'Image Text',
   },
-//   {
-//     title: 'Post title',
-//     date: 'Nov 11',
-//     description:
-//       'This is a wider card with supporting text below as a natural lead-in to additional content.',
-//     image: 'https://source.unsplash.com/random',
-//     imageText: 'Image Text',
-//   },
-// {
-//    title: 'Post title',
-//   date: 'Nov 11',
-//   description:
-//   'This is a wider card with supporting text below as a natural lead-in to additional content.',
-//   image: 'https://source.unsplash.com/random',
-//   imageText: 'Image Text',
-//   },
-//   {
-//     title: 'Post title',
-//     date: 'Nov 11',
-//     description:
-//       'This is a wider card with supporting text below as a natural lead-in to additional content.',
-//     image: 'https://source.unsplash.com/random',
-//     imageText: 'Image Text',
-//   }
 ]
 
 const useStyles = makeStyles((theme) => ({
@@ -59,51 +35,65 @@ const useStyles = makeStyles((theme) => ({
   content: {
     flexGrow: 1,
     height: '100vh',
-    overflow: 'auto',
-  },
-  box1: {
-    title: 'Featured post',
-    date: 'Nov 12',
-    description:
-      'This is a wider card with supporting text below as a natural lead-in to additional content.',
-    image: 'https://source.unsplash.com/random',
-    imageText: 'Image Text',
+    // overflow: 'auto',
   },
 }))
 
 const box1={
-  title: 'Featured post',
+  title: '工大祭とは',
   date: 'Nov 12',
   description:
-  'This is a wider card with supporting text below as a natural lead-in to additional content.',
-  image: 'https://source.unsplash.com/random',
+  '工大祭についての情報を掲載しております',
+  image: '/hanabi.jpg',
   imageText: 'Image Text',
+  url:'/about'
 }
 const box2 = {
-  title: 'Featured post',
+  title: '企画一覧',
   date: 'Nov 12',
   description:
-    'This is a wider card with supporting text below as a natural lead-in to additional content.',
-  image: 'https://source.unsplash.com/random',
+    '企画の一覧を見ることができます',
+  image: '/kikaku.jpg',
   imageText: 'Image Text',
+  url:'project'
 }
 
 const box3 = {
-  title: 'Featured post',
+  title: '企画募集',
   date: 'Nov 12',
   description:
-    'This is a wider card with supporting text below as a natural lead-in to additional content.',
-  image: 'https://source.unsplash.com/random',
+    '外部企画と内部企画の募集を行っております',
+  image: '/bosyu.jpg',
   imageText: 'Image Text',
+  url:'offer'
 }
 
 const box4 = {
-  title: 'Featured post',
+  title: 'ご協賛・広告',
   date: 'Nov 12',
   description:
-    'This is a wider card with supporting text below as a natural lead-in to additional content.',
-  image: 'https://source.unsplash.com/random',
+    'ご協賛などについてのお問い合わせはこちらから',
+  image: '/sponsor.jpg',
   imageText: 'Image Text',
+  url:'sponsor'
+}
+const box5 = {
+  title: 'アクセス',
+  date: 'Nov 12',
+  description:
+    '大学までのアクセスはこちらから',
+  image: '/access.jpg',
+  imageText: 'Image Text',
+  url: 'access'
+}
+const box6 = {
+  title: 'お問い合わせ',
+  date: 'Nov 12',
+  description:
+    '工大祭へのお問い合わせはこちらから',
+  image: '/contact.jpg',
+  imageText: 'Image Text',
+  url:'contact'
 }
 export default function Demo() {
   // var data = new Date();
@@ -116,9 +106,11 @@ export default function Demo() {
   return (
 
     <React.Fragment>
-      <div style={{ display: 'flex' }}>
-        <Menu />
-        <main className={classes.content}>
+      <div className={classes.root}>
+        <header>
+          <Menu />
+        </header>
+        <main className={classes.content} style={{paddingLeft:"50"}}>
           <div className={classes.appBarSpacer} />
           <Container maxWidth="lg" className={classes.container}>
             <Grid container spacing={3}>
@@ -134,9 +126,7 @@ export default function Demo() {
                   <div style={{textAlign:'center'}} >
                    <HeroText />
                     </div>
-                  <Footer /> 
                 </Paper>
-                <img style={{ display: 'none' }} src={kit1} />
                 {/* <Slideshow /> */}
               </Grid>
               <Grid item xs={12} lg={12} >
@@ -144,18 +134,24 @@ export default function Demo() {
               </Grid>
               {/* Recent Orders */}
               {/* <Grid item xs={12} lg={12} style={{ display: 'flex' }}> */}
-                <Grid item xs={12} lg={6} >
+              <Grid item xs={12} md={6} >
                     <FeaturedPost post={box1} />
                 </Grid>
-              <Grid item xs={12} lg={6} >
+              <Grid item xs={12} md={6} >
                   <FeaturedPost post={box2} />
                 </Grid>
-              <Grid item xs={12} lg={6} >
+              <Grid item xs={12} md={6} >
                   <FeaturedPost post={box3} />
                 </Grid>
-              <Grid item xs={12} lg={6} >
+              <Grid item xs={12} md={6} >
                   <FeaturedPost post={box4} />
-                </Grid>
+              </Grid>
+              <Grid item xs={12} md={6} >
+                <FeaturedPost post={box5} />
+              </Grid>
+              <Grid item xs={12} md={6} >
+                <FeaturedPost post={box6} />
+              </Grid>
               </Grid>
               {/* <FeaturedPost key={post.title} post={post} /> */}
             <Box pt={4}>
@@ -163,10 +159,6 @@ export default function Demo() {
             </Box>
           </Container>
         </main>
-        {/* <ButtonAppBar />  */}
-        {/* <SimpleContainer />  */}
-        {/* <Slideshow /> */}
-
       </div>
       
         

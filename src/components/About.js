@@ -1,21 +1,51 @@
 import React, { Component }from 'react'
 import Grid from '@material-ui/core/Grid';
-import ButtonAppBar from './Menu.js'
+import Menu from './Menu.js'
 import MyComponent from './Swipe'
 import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 import Footer from './Footer'
-export default class About extends Component {
+import { makeStyles } from '@material-ui/core/styles';
+import Container from '@material-ui/core/Container';
+import Box from '@material-ui/core/Box';
+import Paper from '@material-ui/core/Paper';
+import CssBaseline from '@material-ui/core/CssBaseline';
+
+const useStyles = makeStyles((theme) => ({
+	root: {
+		display: 'flex',
+	},
+	appBarSpacer: theme.mixins.toolbar,
+	content: {
+		flexGrow: 1,
+		height: '100vh',
+		// overflow: 'auto',
+	},
+	container: {
+		paddingTop: theme.spacing(1),
+		paddingBottom: theme.spacing(4),
+	},
+	fixedHeight: {
+		height: 500,
+	},
+}));
+
+export default function About() {
+	const classes = useStyles();
 	// var data = new Date();
 	//   var Hour = now.getHours();
 	// var Min = now.getMinutes();
 	// var Sec = now.getSeconds();
 	// var now = new Date()
-	render() {
+	
 		return (
 			<React.Fragment>
-				<ButtonAppBar />
-				<div>
-					
+				<div className={classes.root}>
+					<CssBaseline />
+					<Menu />
+					<main className={classes.content} style={{ paddingLeft: "50" }}>
+					<div className={classes.appBarSpacer} />
+						<Container maxWidth="lg" className={classes.container}>
+							<Paper >
 					<div style={{
 						borderBottom: '2px solid red'
 					}}>
@@ -70,10 +100,14 @@ export default class About extends Component {
 							<dd><ArrowRightIcon /></dd>
 						<dd>11月21日(土) 22日(日)</dd>
 					</dl>
-					</div>
-					<Footer />
+								</div>
+							</Paper>
+							<Box pt={4}>
+								<Footer />
+							</Box>
+						</Container>
+						</main>
 				</div>
 			</React.Fragment >
 		)
 	}
-}

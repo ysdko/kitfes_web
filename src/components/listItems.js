@@ -13,69 +13,77 @@ import InfoIcon from '@material-ui/icons/Info';
 import RoomIcon from '@material-ui/icons/Room';
 import EmailIcon from '@material-ui/icons/Email';
 import SportsKabaddiIcon from '@material-ui/icons/SportsKabaddi';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import InsertDriveFileIcon from '@material-ui/icons/InsertDriveFile';
+import MenuBookIcon from '@material-ui/icons/MenuBook';
+
+function ListItemLink(props) {
+	return <ListItem button component="a" {...props} />;
+}
 
 export const mainListItems = (
 	<div>
-		<ListItem button>
+		<ListItemLink href="/about">
 			<ListItemIcon>
 				<InfoIcon />
 			</ListItemIcon>
 			<ListItemText primary="工大祭とは" />
-		</ListItem>
-		<ListItem button>
+		</ListItemLink>
+		<ListItemLink href="/project">
 			<ListItemIcon>
-				<SportsKabaddiIcon />
+				<MenuBookIcon />
+			</ListItemIcon>
+			<ListItemText primary="企画一覧" />
+		</ListItemLink>
+		<ListItemLink href="/offer">
+			<ListItemIcon>
+				<InsertDriveFileIcon />
 			</ListItemIcon>
 			<ListItemText primary="企画募集" />
-		</ListItem>
-		<ListItem button>
+		</ListItemLink>
+		<ListItemLink href="/sponsor"> 
 			<ListItemIcon>
 				<PeopleIcon />
 			</ListItemIcon>
-			<ListItemText primary="ご協賛" />
-		</ListItem>
-		<ListItem button>
+			<ListItemText primary="ご協賛・広告" />
+		</ListItemLink>
+		<ListItemLink href="access">
 			<ListItemIcon>
 				<RoomIcon />
 			</ListItemIcon>
 			<ListItemText primary="アクセス" />
-		</ListItem>
-		<ListItem button>
+		</ListItemLink>
+		<ListItemLink href="/contact">
 			<ListItemIcon>
 				<EmailIcon />
 			</ListItemIcon>
 			<ListItemText primary="お問い合わせ" />
-		</ListItem>
-		<ListItem button>
-			<ListItemIcon>
-				<LayersIcon />
-			</ListItemIcon>
-			<ListItemText primary="公式SNS" />
-		</ListItem>
-		
+		</ListItemLink>		
 	</div>
 );
 
 export const secondaryListItems = (
 	<div>
-		<ListSubheader inset>Saved reports</ListSubheader>
-		<ListItem button>
+		<ListSubheader inset>公式SNS</ListSubheader>
+		<ListItemLink href="https://twitter.com/kit_festival">
 			<ListItemIcon>
-				<AssignmentIcon />
+				<TwitterIcon />
 			</ListItemIcon>
-			<ListItemText primary="Current month" />
-		</ListItem>
-		<ListItem button>
+			<ListItemText primary="公式Twitter" />
+		</ListItemLink>
+		<ListItemLink href="https://www.Instagram.com/kit_festival/">
 			<ListItemIcon>
-				<AssignmentIcon />
+				<InstagramIcon />
 			</ListItemIcon>
-			<ListItemText primary="Last quarter" />
-		</ListItem>
-		<ListItem button>
+			<ListItemText primary="公式Instagram" />
+		</ListItemLink>
+		<ListItemLink href="https://www.facebook.com/kyutechfes/">
 			<ListItemIcon>
-				<AssignmentIcon />
+				<FacebookIcon />
 			</ListItemIcon>
-			<ListItemText primary="Year-end sale" />
-		</ListItem>
+			<ListItemText primary="公式Facebook" />
+		</ListItemLink>
 	</div>
 );

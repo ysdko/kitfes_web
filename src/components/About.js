@@ -1,7 +1,7 @@
 import React, { Component }from 'react'
 import Grid from '@material-ui/core/Grid';
 import Menu from './Menu.js'
-import MyComponent from './Swipe'
+
 import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 import Footer from './Footer'
 import { makeStyles } from '@material-ui/core/styles';

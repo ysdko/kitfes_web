@@ -66,25 +66,26 @@ export default function Contact() {
 								<Grid item>
 									<ArrowRightIcon fontSize="large" style={{ color: "gray" }} />
 								</Grid>
-								<Grid item><h2>ご協賛向けメールアドレス</h2></Grid>
+								<Grid item><h2>ご協賛・広告費について</h2></Grid>
 							</Grid>
-							<p1 style={{ marginLeft: "45" }}>E-mail&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:sponsor&#64;kitfestival.jp">sponsor@kit-festival.jp</a></p1>
+							<p1 style={{ marginLeft: "45" }}><a href="/sponsor">こちら</a>のページよりお問い合わせをお願いします。</p1>
+							
+							<Grid container direction="row" spacing={1} alignItems="center">
+								<Grid item>
+									<ArrowRightIcon fontSize="large" style={{ color: "gray" }} />
+								</Grid>
+								<Grid item><h2>外部企画について</h2></Grid>
+							</Grid>
+							<p1 style={{ marginLeft: "45" }}><a href="/outside">こちら</a>のページよりお問い合わせをお願いします。</p1>
 
 							<Grid container direction="row" spacing={1} alignItems="center">
 								<Grid item>
 									<ArrowRightIcon fontSize="large" style={{ color: "gray" }} />
 								</Grid>
-								<Grid item><h2>外部企画向けメールアドレス</h2></Grid>
+								<Grid item><h2>模擬店について</h2></Grid>
 							</Grid>
-							<p1 style={{ marginLeft: "45" }}>E-mail&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:outside&#64;kit-festival.jp">outside@kit-festival.jp</a></p1>
-
-							<Grid container direction="row" spacing={1} alignItems="center">
-								<Grid item>
-									<ArrowRightIcon fontSize="large" style={{ color: "gray" }} />
-								</Grid>
-								<Grid item><h2>外部企画向けメールアドレス</h2></Grid>
-							</Grid>
-							<p1 style={{ marginLeft: "45" }}>E-mail&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:mogi&#64;kit-festival.jp">@kit-festival.jp</a></p1>
+							<p1 style={{ marginLeft: "45" }}>以下のメールアドレスよりお問い合わせをお願いします。</p1><br/>
+							<p1 style={{ marginLeft: "45" }}>E-mail&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:mogi&#64;kit-festival.jp">mogi@kit-festival.jp</a></p1>
 							
 						
 						</Paper>

@@ -130,26 +130,12 @@ export default function Dashboard() {
             <MenuIcon />
           </IconButton>
           <Button href="/" style={{ color: "white" }}>
-            <img src="/logo.jpg" width="50px"/>
+            <img src="/img/logo.jpg" width="50px"/>
             <Typography component="h1" variant="h6" color="inherit" noWrap className={classes.title}>
-              第60回工大祭 飯塚キャンパス
+              第60回工大祭 飯塚
               </Typography>
           </Button>
 
-          {/* <Button href="/" style={{ color: "white", align: "right" }}>
-            <img src="/logo.jpg" width="50px" />
-          <Typography component="h1" variant="h6" color="inherit" noWrap className={classes.title}>
-            九州工業大学情報工学部
-              </Typography>
-          </Button> */}
-          
-            
-            {/* <ListItemText primary="工大祭とは" /> */}
-          {/* <IconButton color="inherit">
-            <Badge badgeContent={4} color="secondary">
-              <NotificationsIcon />
-            </Badge>
-          </IconButton> */}
         </Toolbar>
       </AppBar>
       <Drawer

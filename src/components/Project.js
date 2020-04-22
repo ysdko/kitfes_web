@@ -53,7 +53,6 @@ export default function Project() {
 								</Grid>
 								<Grid item><h2>ただいま準備中です</h2></Grid>
 							</Grid>
-							<div></div>
 						
 						</Paper>
 						<Box pt={4}>

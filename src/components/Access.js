@@ -21,6 +21,7 @@ import Link from '@material-ui/core/Link';
 import MenuIcon from '@material-ui/icons/Menu';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import NotificationsIcon from '@material-ui/icons/Notifications';
+import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 import { mainListItems, secondaryListItems } from './listItems';
 
 
@@ -70,7 +71,31 @@ export default function Access(){
 										<div dangerouslySetInnerHTML={{ __html: inputhtml }} style={{ margin: '0 auto' }} />
 										</div> 
 								</Paper>
-							</Grid>
+								</Grid>
+								<Grid item xs={12}>
+									<Paper>
+										<Grid container direction="row" spacing={1} alignItems="center">
+
+											<Grid item>
+												<ArrowRightIcon fontSize="large" style={{ color: "gray" }} />
+											</Grid>
+											<Grid item><h2>交通機関</h2></Grid>
+										</Grid>
+										<div style={{marginLeft: 42}}>
+										<h3>電車の場合</h3>
+										<p1>電車をご利用の方は、JR新飯塚駅でお降りください。<br/>
+										当日は本大学よりスクールバスが出ますので、ぜひご利用ください。<br/>
+										詳しくは下記リンク先のページをご覧ください。<br/></p1>
+										<a href="http://www.iizuka.kyutech.ac.jp/campuslife/school-bus">http://www.iizuka.kyutech.ac.jp/campuslife/school-bus</a>
+
+										<h3>バスの場合</h3>
+										<p1>バスをご利用の方は、飯塚バスセンターでお乗り換えください。<br/>
+										上記のように、当日は本大学よりスクールバスが出ますので、ぜひご利用ください。<br/>
+										詳しくは下記リンク先のページをご覧ください。<br/></p1>
+										<a href="http://www.iizuka.kyutech.ac.jp/campuslife/school-bus">http://www.iizuka.kyutech.ac.jp/campuslife/school-bus</a>
+										</div>
+									</Paper>
+								</Grid>
 							{/* Recent Orders */}
 
 						</Grid>

@@ -17,8 +17,9 @@ export default function Lists(props) {
 				</Grid>
 				<Grid item><div><h2>{list.title}</h2></div></Grid>
 			</Grid>
-			<div style={{ marginLeft: 35, fontSize: 18 }}>
-				{list.content}
+			<div style={{ marginLeft: 42, fontSize: 18 }}>
+				{list.content}<br/><br/>
+				{list.url}
 			</div>
 
 		</div>

@@ -46,6 +46,7 @@ export default function About() {
 					<div className={classes.appBarSpacer} />
 						<Container maxWidth="lg" className={classes.container}>
 							<Paper >
+								<div style={{ marginRight: "40" }}>
 					<div style={{
 						borderBottom: '2px solid red'
 					}}>
@@ -60,9 +61,12 @@ export default function About() {
 						</Grid>
 						<Grid item><div><h2>概要</h2></div></Grid>
 					</Grid>
-					<div style={{marginLeft: 35, fontSize: 18}}>
-						工大祭とは九州工業大学情報工学部 飯塚キャンパスで２日間行われる学園祭のことです。<br />
-						私たち情報工学部では毎年地域の方々やご協賛のみなさまのおかげで開催することができております。
+					<div style={{marginLeft: 42, fontSize: 18}}>
+						工大祭とは九州工業大学情報工学部 飯塚キャンパスで２日間かけて行われる学園祭のことです。<br />	
+						子供から大人の方まで楽しめる企画、学生が出店する模擬店、サークル展や研究展など学生皆で祭を盛り上げております。<br/>
+						また、夜には盛大な花火が打ち上げて飯塚の夜を彩ります。<br />
+						昨年度は4000人を超える来場者様にお越しいただき、大変な賑わいとなりました。
+						
 					</div>
 					<Grid container direction="row" spacing={1} alignItems="center">
 
@@ -71,7 +75,7 @@ export default function About() {
 						</Grid>
 						<Grid item><div><h2>開催日</h2></div></Grid>
 					</Grid>
-					<div style={{ marginLeft: 35, fontSize: 18 }}>
+					<div style={{ marginLeft: 42, fontSize: 18 }}>
 						2020年11月21日(土) 22日(日)
 					</div>
 
@@ -82,24 +86,24 @@ export default function About() {
 						</Grid>
 						<Grid item><div><h2>場所</h2></div></Grid>
 					</Grid>
-					<div style={{ marginLeft: 35, fontSize: 18 }}>アクセスは<a href="/access">こちら</a>から</div>
+					<div style={{ marginLeft: 42, fontSize: 18 }}>アクセスは<a href="/access">こちら</a>から</div>
 
 					<Grid container direction="row" spacing={1} alignItems="center">
 
 						<Grid item>
 							<ArrowRightIcon fontSize="large" style={{ color: "gray" }} />
 						</Grid>
-						<Grid item><div><h2>委員長から</h2></div></Grid>
+						<Grid item><div><h2>当日の様子</h2></div></Grid>
+						
 					</Grid>
-					
-					<a href="kit1.jpg" download="kit1.jpg">Download Text</a>
+									<img style={{ width: '40vw', marginLeft: '42', marginBottom: "20" }} src="kit.jpg"></img>
+									<img style={{ width: '40vw', marginLeft: '42', marginBottom: "20" }} src="hanabi.jpg"></img>
+									<img style={{ width: '40vw', marginLeft: '42', marginBottom: "20" }} src="game.jpg"></img>
+									<img style={{ width: '40vw', marginLeft: '42', marginBottom: "20"}} src="mon.jpg"></img>
 					
 				<div>
-					<dl>
-							<dt>開催日</dt>
-							<dd><ArrowRightIcon /></dd>
-						<dd>11月21日(土) 22日(日)</dd>
-					</dl>
+
+									</div>
 								</div>
 							</Paper>
 							<Box pt={4}>

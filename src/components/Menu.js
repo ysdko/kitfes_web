@@ -79,7 +79,7 @@ const useStyles = makeStyles((theme) => ({
       width: theme.spacing(10)
     }),
     width: theme.spacing(7),
-    [theme.breakpoints.up('sm')]: {
+    [theme.breakpoints.up('md')]: {
       width: theme.spacing(9),
     },
   },
@@ -118,7 +118,7 @@ export default function Dashboard() {
   return (
     <div className={classes.root}>
       <CssBaseline />
-      <AppBar position="absolute" className={clsx(classes.appBar, open && classes.appBarShift)} style={{ backgroundColor: 'black', position: 'fixed', top: '0', left: '0', width: '100%' }}>
+      <AppBar position="absolute" className={clsx(classes.appBar, open && classes.appBarShift)} style={{ backgroundColor: 'black', position: 'fixed', top: '0', left: '0'}}>
         <Toolbar className={classes.toolbar}>
           <IconButton
             edge="start"

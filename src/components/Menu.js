@@ -22,7 +22,7 @@ import { mainListItems, secondaryListItems } from './listItems';
 import Button from '@material-ui/core/Button';
 
 
-const drawerWidth = 200;
+const drawerWidth = 250;
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -145,7 +145,9 @@ export default function Dashboard() {
           paper: clsx(classes.drawerPaper, !open && classes.drawerPaperClose),
         }}
         open={open}
-        style={{position: 'fixed', top: '0', left: '0', height: '100%',zIndex: 4,
+        // style={{position: 'fixed', top: '0', left: '0', height: '100%',zIndex: 4,width: '10vw'
+        style={{
+          position: 'fixed', top: '0', left: '0', zIndex: 4, width: '10vw'
        }}
       >
         <div className={classes.toolbarIcon}>

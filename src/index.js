@@ -10,11 +10,18 @@ import Project from './components/Project'
 import Sponsor from './components/Sponsor.js'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
+// import { useEffect } from "react";
+// import { useLocation } from "react-router-dom";
+import { Component } from 'react';
+import { withRouter } from 'react-router-dom';
+
+
 
 class App extends React.Component {
 render() {
 	return (
 		<BrowserRouter>
+			
 			<Switch>
 				<Route exact path="/" component={Demo} />
 				<Route  path="/about" component={About} />

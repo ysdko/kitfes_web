@@ -9,6 +9,7 @@ import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 import Paper from '@material-ui/core/Paper';
 import CssBaseline from '@material-ui/core/CssBaseline';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -41,7 +42,9 @@ export default function About() {
 			<React.Fragment>
 				<div className={classes.root}>
 					<CssBaseline />
-					<Menu />
+					<header>
+						<Menu />
+					</header>
 					<main className={classes.content} style={{ paddingLeft: "50" }}>
 					<div className={classes.appBarSpacer} />
 						<Container maxWidth="lg" className={classes.container}>
@@ -86,7 +89,7 @@ export default function About() {
 						</Grid>
 						<Grid item><div><h2>場所</h2></div></Grid>
 					</Grid>
-					<div style={{ marginLeft: 42, fontSize: 18 }}>アクセスは<a href="/access">こちら</a>から</div>
+									<div style={{ marginLeft: 42, fontSize: 18 }}>アクセスは<Link to="/access">こちら</Link>から</div>
 
 					<Grid container direction="row" spacing={1} alignItems="center">
 

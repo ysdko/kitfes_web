@@ -18,15 +18,18 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InsertDriveFileIcon from '@material-ui/icons/InsertDriveFile';
 import MenuBookIcon from '@material-ui/icons/MenuBook';
-import { Link } from 'react-router-dom';
+import { Link, BrowserRouter } from 'react-router-dom';
+// import ScrollToTop from './scrollToTop';
 
 function ListItemLink(props) {
 	return <ListItem button component="a" {...props} />;
 }
 
 export const mainListItems = (
+	// <BrowserRouter>
+	// 	<ScrollToTop />
 	<div>
-		<Link to="/about">
+		<Link to="/about" style={{textDecoration: "none", color:"black"}}>
 		<ListItem button>
 			<ListItemIcon>
 				<InfoIcon />
@@ -36,38 +39,55 @@ export const mainListItems = (
 				<ListItemText primary="工大祭とは" />
 			
 		</ListItem>
-			</Link>
-		<ListItemLink href="/project">
+		</Link>
+		
+		<Link to="/project" style={{ textDecoration: "none", color: "black" }}>
+		<ListItem button>
 			<ListItemIcon>
 				<MenuBookIcon />
 			</ListItemIcon>
 			<ListItemText primary="企画一覧" />
-		</ListItemLink>
-		<ListItemLink href="/offer">
+		</ListItem>
+		</Link>
+
+		<Link to="/offer" style={{ textDecoration: "none", color: "black" }}>
+			<ListItem button>
 			<ListItemIcon>
 				<InsertDriveFileIcon />
 			</ListItemIcon>
 			<ListItemText primary="企画募集" />
-		</ListItemLink>
-		<ListItemLink href="/sponsor"> 
+		</ListItem>
+		</Link>
+
+		<Link to="/sponsor" style={{ textDecoration: "none", color: "black" }}>
+			<ListItem button>
 			<ListItemIcon>
 				<PeopleIcon />
 			</ListItemIcon>
 			<ListItemText primary="ご協賛・広告" />
-		</ListItemLink>
-		<ListItemLink href="access">
+		</ListItem>
+		</Link>
+
+		<Link to="/access" style={{ textDecoration: "none", color: "black" }}>
+			<ListItem button>
 			<ListItemIcon>
 				<RoomIcon />
 			</ListItemIcon>
 			<ListItemText primary="アクセス" />
-		</ListItemLink>
-		<ListItemLink href="/contact">
+			</ListItem>
+		</Link>
+
+		<Link to="/contact" style={{ textDecoration: "none", color: "black" }}>
+			<ListItem button>
 			<ListItemIcon>
 				<EmailIcon />
 			</ListItemIcon>
 			<ListItemText primary="お問い合わせ" />
-		</ListItemLink>		
-	</div>
+		</ListItem>	
+		</Link>	
+			</div>
+		// {/* </ScrollToTop> */}
+	// </BrowserRouter>
 );
 
 export const secondaryListItems = (

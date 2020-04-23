@@ -14,7 +14,7 @@ import * as serviceWorker from './serviceWorker';
 class App extends React.Component {
 render() {
 	return (
-		<BrowserRouter basename={process.env.PUBLIC_URL}>
+		<BrowserRouter>
 			<Switch>
 				<Route exact path="/" component={Demo} />
 				<Route  path="/about" component={About} />

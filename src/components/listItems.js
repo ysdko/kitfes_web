@@ -18,6 +18,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InsertDriveFileIcon from '@material-ui/icons/InsertDriveFile';
 import MenuBookIcon from '@material-ui/icons/MenuBook';
+import { Link } from 'react-router-dom';
 
 function ListItemLink(props) {
 	return <ListItem button component="a" {...props} />;
@@ -25,12 +26,17 @@ function ListItemLink(props) {
 
 export const mainListItems = (
 	<div>
-		<ListItemLink href="/about">
+		<Link to="/about">
+		<ListItem button>
 			<ListItemIcon>
 				<InfoIcon />
+				
 			</ListItemIcon>
-			<ListItemText primary="工大祭とは" />
-		</ListItemLink>
+				
+				<ListItemText primary="工大祭とは" />
+			
+		</ListItem>
+			</Link>
 		<ListItemLink href="/project">
 			<ListItemIcon>
 				<MenuBookIcon />

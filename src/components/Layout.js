@@ -9,12 +9,6 @@ import Box from '@material-ui/core/Box';
 import Footer from './Footer'
 import Paper from '@material-ui/core/Paper';
 import { makeStyles } from '@material-ui/core/styles';
-import { kit1 } from '../img/kit1.jpg'
-// import { Container } from '@material-ui/core';
-// import SimpleContainer from './Container'
-
-// import FlipNumbers from 'react-flip-numbers';
-
 
 const featuredPosts = [
   {
@@ -96,11 +90,6 @@ const box6 = {
   url:'contact'
 }
 export default function Demo() {
-  // var data = new Date();
-  //   var Hour = now.getHours();
-  // var Min = now.getMinutes();
-  // var Sec = now.getSeconds();
-  // var now = new Date() 
   const classes = useStyles();
     
   return (

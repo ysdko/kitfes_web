@@ -132,6 +132,7 @@ export default function Dashboard() {
           <Button href="/" style={{ color: "white" }}>
             <img src="/img/logo.jpg" width="50px"/>
             <Typography component="h1" variant="h6" color="inherit" noWrap className={classes.title}>
+              
               第60回工大祭 飯塚
               </Typography>
           </Button>

@@ -14,16 +14,15 @@ import * as serviceWorker from './serviceWorker';
 class App extends React.Component {
 render() {
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename={process.env.PUBLIC_URL}>
 			<Switch>
 				<Route exact path="/" component={Demo} />
-				<Route exact path="/about" component={About} />
-				<Route exact path="/access" component={Access} />
-				<Route exact path="/offer" component={Offer} />
-				<Route exact path="/contact" component={Contact} />
-				<Route exact path="/project" component={Project} />
-				<Route exact path ="/Sponsor" component={Sponsor} />
-				{/* <Route exact path="/kit1.jpg" /> */}
+				<Route  path="/about" component={About} />
+				<Route  path="/access" component={Access} />
+				<Route  path="/offer" component={Offer} />
+				<Route  path="/contact" component={Contact} />
+				<Route  path="/project" component={Project} />
+				<Route  path="/Sponsor" component={Sponsor} />
 			</Switch>
 		</BrowserRouter>
 

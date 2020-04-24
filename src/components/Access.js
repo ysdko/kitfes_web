@@ -50,9 +50,9 @@ export default function Access(){
 		return (
 			<React.Fragment>
 				<div className={classes.root}>
-				<header>
+				{/* <header> */}
 					<Menu/>
-				</header>
+				{/* </header> */}
 					<main className={classes.content} style={{ paddingLeft: "50" }}>
 					<div className={classes.appBarSpacer} />
 					<Container maxWidth="lg" className={classes.container}>

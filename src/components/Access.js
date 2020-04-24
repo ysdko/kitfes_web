@@ -80,14 +80,25 @@ export default function Access(){
 												<ArrowRightIcon fontSize="large" style={{ color: "gray" }} />
 											</Grid>
 											<Grid item><h2>交通機関</h2></Grid>
-										</Grid>
-										<div style={{marginLeft: 40}}>
+								</Grid>
+								
+								<div style={{ marginRight: "50" }}>
+									<p style={{ fontSize: "18", marginLeft: "40" }}>毎年、工大祭を支えてくださっている企業や地域、卒業生の皆様ありがとうございます。
+									皆様のお力により毎年工大祭を運営することができており、昨年度は4000人以上という本当に多くの来場者にお越しいただくことができました。
+									工大祭は学生が主体となって運営している学園祭になっております。実行委員一同、少しでも多くの来場者様の笑顔を見たいという思いから日々活動に励んでおります。
+									しかしながら、私たち学生は皆様の経済的な支えなくしては工大祭を運営することができません。
+									つきましては、今年度も工大祭を運営するためにも皆様のお力をどうかお貸しいただけないでしょうか？
+									皆様からいただいた広告費や協賛品はすべて工大祭の運営に使用させていただきます。
+									実りある学祭のためのお力添えにご理解とご協力を賜りますようお願い申し上げます。
+							</p>
+									</div>
+										{/* <div style={{marginLeft: 40}}>
 										<h3>電車の場合</h3>
 										<p1>電車をご利用の方は、JR新飯塚駅でお降りください。<br/>
 										当日は本大学よりスクールバスが出ますので、ぜひご利用ください。<br/>
 										詳しくは下記リンク先のページをご覧ください。<br/></p1>
 										<a href="http://www.iizuka.kyutech.ac.jp/campuslife/school-bus">http://www.iizuka.kyutech.ac.jp/campuslife/school-bus</a>
-										</div>
+										</div> */}
 								
 								        {/* <div style={{ marginLeft: 40 }}>
 										<h3>バスの場合</h3>

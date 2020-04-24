@@ -83,7 +83,7 @@ export default function Contact() {
 								<Grid item><h2>外部企画について</h2></Grid>
 							</Grid>
 							<div style={{ marginLeft: "45" }}>
-							<p1><a href="/outside">こちら</a>のページよりお問い合わせをお願いします。</p1>
+							<p1><a href="/offer">こちら</a>のページよりお問い合わせをお願いします。</p1>
 							</div>
 
 							<Grid container direction="row" spacing={1} alignItems="center">

@@ -58,10 +58,11 @@ export default function Contact() {
 								</Grid>
 								<Grid item><h2>工大祭実行委員会</h2></Grid>
 							</Grid>
-							<p1 style={{ marginLeft: "45" }}>E-mail&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:iizuka&#64;kit-festival.jp">iizuka@kit-festival.jp</a></p1><br/><br/>
-							<p1 style={{ marginLeft: "45" }}>住所&nbsp;&nbsp;&nbsp;&nbsp;820-8502</p1><br></br>
-							<p1 style={{ marginLeft: "87" }}>福岡県飯塚市川津680-4製作作業室7</p1>
-
+							<div style={{ marginLeft: "45" }}>
+							<p1>E-mail&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:iizuka&#64;kit-festival.jp">iizuka@kit-festival.jp</a></p1><br/><br/>
+							<p1>住所&nbsp;&nbsp;&nbsp;&nbsp;820-8502</p1><br></br>
+							<p1>福岡県飯塚市川津680-4製作作業室7</p1>
+							</div>
 							<Grid container direction="row" spacing={1} alignItems="center">
 								<Grid item>
 									<ArrowRightIcon fontSize="large" style={{ color: "gray" }} />
@@ -76,8 +77,10 @@ export default function Contact() {
 								</Grid>
 								<Grid item><h2>外部企画について</h2></Grid>
 							</Grid>
-							<p1 style={{ marginLeft: "45" }}><a href="/outside">こちら</a>のページよりお問い合わせをお願いします。</p1>
-
+							<div style={{ marginLeft: "45" }}>
+							<p1><a href="/outside">こちら</a>のページよりお問い合わせをお願いします。</p1>
+							</div>
+							
 							<Grid container direction="row" spacing={1} alignItems="center">
 								<Grid item>
 									<ArrowRightIcon fontSize="large" style={{ color: "gray" }} />

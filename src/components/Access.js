@@ -57,9 +57,9 @@ export default function Access(){
 					<div className={classes.appBarSpacer} />
 					<Container maxWidth="lg" className={classes.container}>
 							<Paper>
-							<Grid container spacing={3}>
+							{/* <Grid container spacing={3}> */}
 							{/* Chart */}
-							<Grid item xs={12} >
+							{/* <Grid item xs={12} > */}
 									<div style={{
 										borderBottom: '2px solid red'
 									}}>
@@ -71,7 +71,7 @@ export default function Access(){
 										<div dangerouslySetInnerHTML={{ __html: inputhtml }} style={{ margin: '0 auto' }} />
 										</div> 
 								
-									</Grid>
+									{/* </Grid> */}
 								<Grid item xs={12}>
 									{/* <Paper> */}
 										<Grid container direction="row" spacing={1} alignItems="center">
@@ -99,7 +99,7 @@ export default function Access(){
 									
 							{/* Recent Orders */}
 
-								</Grid>
+								{/* </Grid> */}
 							</Paper>
 						<Box pt={4}>
 							<Footer />

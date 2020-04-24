@@ -81,7 +81,7 @@ export default function Access(){
 											</Grid>
 											<Grid item><h2>交通機関</h2></Grid>
 										</Grid>
-										<div style={{marginLeft: 42}}>
+										{/* <div style={{marginLeft: 42}}>
 										<h3>電車の場合</h3>
 										<p1>電車をご利用の方は、JR新飯塚駅でお降りください。<br/>
 										当日は本大学よりスクールバスが出ますので、ぜひご利用ください。<br/>
@@ -93,7 +93,7 @@ export default function Access(){
 										上記のように、当日は本大学よりスクールバスが出ますので、ぜひご利用ください。<br/>
 										詳しくは下記リンク先のページをご覧ください。<br/></p1>
 										<a href="http://www.iizuka.kyutech.ac.jp/campuslife/school-bus">http://www.iizuka.kyutech.ac.jp/campuslife/school-bus</a>
-										</div>
+										</div> */}
 									
 							{/* Recent Orders */}
 

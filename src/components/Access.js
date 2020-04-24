@@ -68,7 +68,7 @@ export default function Access(){
 										}}>アクセス</h1>
 									</div>
 									<div style={{ textAlign: 'center' }}>
-										<div dangerouslySetInnerHTML={{ __html: inputhtml }} style={{ margin: '0 auto' }} />
+										{/* <div dangerouslySetInnerHTML={{ __html: inputhtml }} style={{ margin: '0 auto' }} /> */}
 										</div> 
 								
 									{/* </Grid> */}

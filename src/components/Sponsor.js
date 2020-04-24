@@ -72,22 +72,25 @@ export default function Sponsor() {
 								<ArrowRightIcon fontSize="large" style={{ color: "gray" }} />
 							</Grid>
 								<Grid item><h2>ご協賛について</h2></Grid>
-							</Grid>
-							<p style={{ fontSize: "18", marginLeft: "40" }}>工大祭では毎年多くの企業・団体様からご協賛物品をいただいております.
+								</Grid>
+								<div style={{ fontSize: "18", marginLeft: "40" }}>
+							<p>工大祭では毎年多くの企業・団体様からご協賛物品をいただいております.
 							いただいたご協賛品につきましては紹介などもさせていただいております。ご検討いただける企業様につきましては以下のメールアドレスよりお気軽にお問い合わせください。</p>
-							<p1 style={{ marginLeft: "45" }}>E-mail&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:sponsor&#64;kitfestival.jp">sponsor@kit-festival.jp</a></p1>
-
+							<p1>E-mail&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:sponsor&#64;kitfestival.jp">sponsor@kit-festival.jp</a></p1>
+								</div>
 
 							<Grid container direction="row" spacing={1} alignItems="center">
 								<Grid item>
 									<ArrowRightIcon fontSize="large" style={{ color: "gray" }} />
 								</Grid>
 								<Grid item><h2>広告費について</h2></Grid>
-							</Grid>
-							<p style={{ fontSize: "18", marginLeft: "40" }}>工大祭では毎年多くの企業・団体より広告費をいただいております。ご協力いただけた企業・団体・個人様につきましては実行委員会が発行する工大祭のパンフレットへの掲載をいたします。<br>
+								</Grid>
+								<div style={{ fontSize: "18", marginLeft: "40" }}>
+							<p>工大祭では毎年多くの企業・団体より広告費をいただいております。ご協力いただけた企業・団体・個人様につきましては実行委員会が発行する工大祭のパンフレットへの掲載をいたします。<br>
 							</br>ご検討いただける企業様につきましては以下のメールアドレスよりお気軽にお問い合わせください。</p>
 							
-								<p1 style={{ marginLeft: "45" }}>E-mail&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:contact&#64;kitfestival.jp">contact@kit-festival.jp</a></p1>
+								<p1>E-mail&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:contact&#64;kitfestival.jp">contact@kit-festival.jp</a></p1>
+								</div>
 							</div>
 						</Paper>
 						<Box pt={4}>

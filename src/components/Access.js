@@ -56,10 +56,10 @@ export default function Access(){
 					<main className={classes.content} style={{ paddingLeft: "50" }}>
 					<div className={classes.appBarSpacer} />
 					<Container maxWidth="lg" className={classes.container}>
-						<Grid container spacing={3}>
+							<Paper>
+							<Grid container spacing={3}>
 							{/* Chart */}
 							<Grid item xs={12} >
-								<Paper>
 									<div style={{
 										borderBottom: '2px solid red'
 									}}>
@@ -70,10 +70,10 @@ export default function Access(){
 									<div style={{ textAlign: 'center' }}>
 										<div dangerouslySetInnerHTML={{ __html: inputhtml }} style={{ margin: '0 auto' }} />
 										</div> 
-								</Paper>
-								</Grid>
+								
+									</Grid>
 								<Grid item xs={12}>
-									<Paper>
+									{/* <Paper> */}
 										<Grid container direction="row" spacing={1} alignItems="center">
 
 											<Grid item>
@@ -94,11 +94,13 @@ export default function Access(){
 										詳しくは下記リンク先のページをご覧ください。<br/></p1>
 										<a href="http://www.iizuka.kyutech.ac.jp/campuslife/school-bus">http://www.iizuka.kyutech.ac.jp/campuslife/school-bus</a>
 										</div>
-									</Paper>
-								</Grid>
+									{/* </Paper> */}
+									</Grid>
+									
 							{/* Recent Orders */}
 
-						</Grid>
+								</Grid>
+							</Paper>
 						<Box pt={4}>
 							<Footer />
 						</Box>

@@ -93,7 +93,7 @@ export default function Access(){
 									実りある学祭のためのお力添えにご理解とご協力を賜りますようお願い申し上げます。
 							</p>
 									</div> */}
-								<div style={{ marginLeft: 40, marginRight: 20}}>
+								<div style={{ marginLeft: 45, marginRight: 20}}>
 										<h3>電車の場合</h3>
 										<p>電車をご利用の方は、JR新飯塚駅でお降りください。<br/>
 										当日は本大学よりスクールバスが出ますので、ぜひご利用ください。<br/>

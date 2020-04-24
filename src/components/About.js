@@ -101,7 +101,7 @@ export default function About() {
 						<Grid item><div><h2>当日の様子</h2></div></Grid>
 						
 					</Grid>
-									<img style={{ width: '40vw', marginLeft: '42', marginBottom: "20" }} src="kit.jpg"></img>
+									<img style={{ width: '40vw', marginLeft: '42', marginBottom: "20" }} src="bingo.jpg"></img>
 									<img style={{ width: '40vw', marginLeft: '42', marginBottom: "20" }} src="hanabi.jpg"></img>
 									<img style={{ width: '40vw', marginLeft: '42', marginBottom: "20" }} src="game.jpg"></img>
 									<img style={{ width: '40vw', marginLeft: '42', marginBottom: "20"}} src="mon.jpg"></img>

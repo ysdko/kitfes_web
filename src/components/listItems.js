@@ -27,7 +27,7 @@ function ListItemLink(props) {
 
 export const mainListItems = (
 	// <BrowserRouter>
-	// 	<ScrollToTop />
+	// 	<ScrollToTop>
 	<div>
 		<Link to="/about" style={{textDecoration: "none", color:"black"}}>
 		<ListItem button>
@@ -86,7 +86,7 @@ export const mainListItems = (
 		</ListItem>	
 		</Link>	
 			</div>
-		// {/* </ScrollToTop> */}
+	// 	 </ScrollToTop>
 	// </BrowserRouter>
 );
 

@@ -145,9 +145,9 @@ export default function Dashboard() {
           paper: clsx(classes.drawerPaper, !open && classes.drawerPaperClose),
         }}
         open={open}
-        // style={{position: 'fixed', top: '0', left: '0', height: '100%',zIndex: 4,width: '10vw'
-        style={{
-          position: 'fixed', top: '0', left: '0', zIndex: 4, width: '10vw'
+        style={{position: 'fixed', top: '0', left: '0', height: '100%',zIndex: 4
+        // style={{
+          // position: 'fixed', top: '0', left: '0', zIndex: 4, width: '10vw'
        }}
       >
         <div className={classes.toolbarIcon}>

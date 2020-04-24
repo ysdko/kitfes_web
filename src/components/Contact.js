@@ -84,9 +84,10 @@ export default function Contact() {
 								</Grid>
 								<Grid item><h2>模擬店について</h2></Grid>
 							</Grid>
-							<p1 style={{ marginLeft: "45" }}>以下のメールアドレスよりお問い合わせをお願いします。</p1><br/>
-							<p1 style={{ marginLeft: "45" }}>E-mail&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:mogi&#64;kit-festival.jp">mogi@kit-festival.jp</a></p1>
-							
+							<div style={{ marginLeft: "45" }}>
+							<p1>以下のメールアドレスよりお問い合わせをお願いします。</p1><br/>
+							<p1>E-mail&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:mogi&#64;kit-festival.jp">mogi@kit-festival.jp</a></p1>
+							</div>
 						
 						</Paper>
 						<Box pt={4}>

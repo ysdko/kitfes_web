@@ -14,14 +14,14 @@ import * as serviceWorker from './serviceWorker';
 // import { useLocation } from "react-router-dom";
 import { Component } from 'react';
 import { withRouter } from 'react-router-dom';
-
+import ScrollToTop from './components/scrollToTop';
 
 
 class App extends React.Component {
 render() {
 	return (
 		<BrowserRouter>
-			
+			<ScrollToTop>
 			<Switch>
 				<Route exact path="/" component={Demo} />
 				<Route  path="/about" component={About} />
@@ -30,7 +30,8 @@ render() {
 				<Route  path="/contact" component={Contact} />
 				<Route  path="/project" component={Project} />
 				<Route  path="/Sponsor" component={Sponsor} />
-			</Switch>
+				</Switch>
+			</ScrollToTop>
 		</BrowserRouter>
 
 	)

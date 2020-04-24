@@ -8,7 +8,8 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Hidden from '@material-ui/core/Hidden';
-import {Link} from 'react-router-dom'
+import { Link, BrowserRouter} from 'react-router-dom'
+import ScrollToTop from './scrollToTop';
 
 const useStyles = makeStyles({
 	card: {
@@ -28,8 +29,9 @@ export default function FeaturedPost(props) {
 	const { post } = props;
 
 	return (
-			<CardActionArea>
-				<Link to={post.url} style={{ textDecoration: "none" }}>
+
+		<CardActionArea>
+					<Link to={post.url} style={{ textDecoration: "none" }}>
 			<Card className={classes.card}>
 					<div className={classes.cardDetails}>
 						<CardContent>
@@ -52,7 +54,8 @@ export default function FeaturedPost(props) {
 					</Hidden>
 				</Card>
 			</Link>
-			</CardActionArea>
+				</CardActionArea>
+
 	);
 }
 

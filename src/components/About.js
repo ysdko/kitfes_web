@@ -91,7 +91,9 @@ export default function About() {
 						</Grid>
 						<Grid item><div><h2>場所</h2></div></Grid>
 					</Grid>
-									<div style={{ marginLeft: 42, fontSize: 18 }}>アクセスは<Link to="/access">こちら</Link>から</div>
+									<div style={{ marginLeft: 42, fontSize: 18 }}>
+										<p>九州工業大学情報工学部飯塚キャンパス</p>
+										<p>アクセスは<Link to="/access">こちら</Link>から</p></div>
 
 					<Grid container direction="row" spacing={1} alignItems="center">
 
@@ -102,7 +104,7 @@ export default function About() {
 						
 					</Grid>
 									<img style={{ width: '40vw', marginLeft: '42', marginBottom: "20" }} src="bingo.jpg"></img>
-									<img style={{ width: '40vw', marginLeft: '42', marginBottom: "20" }} src="hanabi.jpg"></img>
+									<img style={{ width: '40vw', marginLeft: '42', marginBottom: "20" }} src="hanabi2.jpg"></img>
 									<img style={{ width: '40vw', marginLeft: '42', marginBottom: "20" }} src="game.jpg"></img>
 									<img style={{ width: '40vw', marginLeft: '42', marginBottom: "20"}} src="mon.jpg"></img>
 					

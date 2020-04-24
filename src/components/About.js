@@ -10,6 +10,7 @@ import Box from '@material-ui/core/Box';
 import Paper from '@material-ui/core/Paper';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { Link } from 'react-router-dom';
+import ScrollToTop from './scrollToTop';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -40,6 +41,7 @@ export default function About() {
 	
 		return (
 			<React.Fragment>
+				<ScrollToTop />
 				<div className={classes.root}>
 					<CssBaseline />
 					<header>

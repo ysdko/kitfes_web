@@ -16,12 +16,21 @@ import { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import ScrollToTop from './components/scrollToTop';
 
+// function Scroll() {
+// 	return (
+// 		<BrowserRouter>
+// 			<ScrollToTop />
+// 			<Scroll />
+// 		</BrowserRouter>
+// 	);
+// }
 
 class App extends React.Component {
 render() {
 	return (
 		<BrowserRouter>
-			<ScrollToTop>
+			{/* <ScrollToTop /> */}
+			{/* <App /> */}
 			<Switch>
 				<Route exact path="/" component={Demo} />
 				<Route  path="/about" component={About} />
@@ -31,7 +40,6 @@ render() {
 				<Route  path="/project" component={Project} />
 				<Route  path="/Sponsor" component={Sponsor} />
 				</Switch>
-			</ScrollToTop>
 		</BrowserRouter>
 
 	)

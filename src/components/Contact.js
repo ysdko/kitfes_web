@@ -69,7 +69,9 @@ export default function Contact() {
 								</Grid>
 								<Grid item><h2>ご協賛・広告費について</h2></Grid>
 							</Grid>
-							<p1 style={{ marginLeft: "45" }}><a href="/sponsor">こちら</a>のページよりお問い合わせをお願いします。</p1>
+							<div style={{ marginLeft: "45" }}>
+							<p1><a href="/sponsor">こちら</a>のページよりお問い合わせをお願いします。</p1>
+							</div>
 							
 							<Grid container direction="row" spacing={1} alignItems="center">
 								<Grid item>
@@ -80,7 +82,7 @@ export default function Contact() {
 							<div style={{ marginLeft: "45" }}>
 							<p1><a href="/outside">こちら</a>のページよりお問い合わせをお願いします。</p1>
 							</div>
-							
+
 							<Grid container direction="row" spacing={1} alignItems="center">
 								<Grid item>
 									<ArrowRightIcon fontSize="large" style={{ color: "gray" }} />

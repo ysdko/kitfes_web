@@ -97,8 +97,8 @@ export default function Access(){
 										<h3>電車の場合</h3>
 										<p>電車をご利用の方は、JR新飯塚駅でお降りください。<br/>
 										当日は本大学よりスクールバスが出ますので、ぜひご利用ください。<br/>
-										詳しくは下記リンク先のページをご覧ください。<br/></p>
-										<p><a href="http://www.iizuka.kyutech.ac.jp/campuslife/school-bus">http://www.iizuka.kyutech.ac.jp/campuslife/school-bus</a></p>
+										詳しくは下記リンク先のページをご覧ください。<br/>
+										<a href="http://www.iizuka.kyutech.ac.jp/campuslife/school-bus">http://www.iizuka.kyutech.ac.jp/campuslife/school-bus</a></p>
 										</div>
 								
 								        {/* <div style={{ marginLeft: 40 }}>

@@ -8,6 +8,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 import Paper from '@material-ui/core/Paper';
+import ScrollToTop from './scrollToTop';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -33,6 +34,7 @@ export default function Project() {
 
 	return (
 		<React.Fragment>
+			<ScrollToTop/>
 			<div className={classes.root}>
 				<Menu />
 				<main className={classes.content} style={{ paddingLeft: "50" }}>

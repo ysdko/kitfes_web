@@ -8,6 +8,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 import Paper from '@material-ui/core/Paper';
+import ScrollToTop from './scrollToTop';
+
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -38,6 +40,7 @@ export default function Contact() {
 
 	return (
 		<React.Fragment>
+			<ScrollToTop/>
 			<div className={classes.root}>
 				<Menu />
 				<main className={classes.content} style={{ paddingLeft: "50" }}>
@@ -72,7 +75,7 @@ export default function Contact() {
 							<div style={{ marginLeft: "45" }}>
 							<p1><a href="/sponsor">こちら</a>のページよりお問い合わせをお願いします。</p1>
 							</div>
-							
+
 							<Grid container direction="row" spacing={1} alignItems="center">
 								<Grid item>
 									<ArrowRightIcon fontSize="large" style={{ color: "gray" }} />

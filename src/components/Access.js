@@ -89,13 +89,13 @@ export default function Access(){
 										<a href="http://www.iizuka.kyutech.ac.jp/campuslife/school-bus">http://www.iizuka.kyutech.ac.jp/campuslife/school-bus</a>
 										</div>
 								
-								        <div style={{ marginLeft: 40 }}>
+								        {/* <div style={{ marginLeft: 40 }}>
 										<h3>バスの場合</h3>
 										<p1>バスをご利用の方は、飯塚バスセンターでお乗り換えください。<br/>
 										上記のように、当日は本大学よりスクールバスが出ますので、ぜひご利用ください。<br/>
 										詳しくは下記リンク先のページをご覧ください。<br/></p1>
 										<a href="http://www.iizuka.kyutech.ac.jp/campuslife/school-bus">http://www.iizuka.kyutech.ac.jp/campuslife/school-bus</a>
-										</div>
+										</div> */}
 									
 							{/* Recent Orders */}
 

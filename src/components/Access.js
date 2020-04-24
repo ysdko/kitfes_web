@@ -72,7 +72,7 @@ export default function Access(){
 										</div> 
 								
 									{/* </Grid> */}
-								<Grid item xs={12}>
+
 									{/* <Paper> */}
 										<Grid container direction="row" spacing={1} alignItems="center">
 
@@ -94,8 +94,6 @@ export default function Access(){
 										詳しくは下記リンク先のページをご覧ください。<br/></p1>
 										<a href="http://www.iizuka.kyutech.ac.jp/campuslife/school-bus">http://www.iizuka.kyutech.ac.jp/campuslife/school-bus</a>
 										</div>
-									{/* </Paper> */}
-									</Grid>
 									
 							{/* Recent Orders */}
 

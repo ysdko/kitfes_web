@@ -122,8 +122,8 @@ export default function Demo() {
                 {/* <Slideshow /> */}
               </Grid>
               <Grid item xs={12} lg={12} >
-                <h1 style={{ textAlign: 'center', borderBottom: '2px solid red', fontSize: "25" }}>2020年11月21日(土)22日(日)開催！</h1>
-                <h2 style={{ textAlign: 'center', fontSize: "25" }}>九州工業大学飯塚キャンパス</h2>
+                <h1 style={{ textAlign: 'center', borderBottom: '2px solid red', fontSize: "4vw" }}>2020年11月21日(土)22日(日)開催！</h1>
+                <h2 style={{ textAlign: 'center', fontSize: "4vw" }}>九州工業大学飯塚キャンパス</h2>
               </Grid>
               <Grid item xs={12} lg={12} >
                 <h1 style={{textAlign: 'center'}}>Topics</h1>

@@ -65,8 +65,8 @@ export default function Dashboard() {
 	const lists = [
 		{
 			title: '外部企画募集',
-			content: "外部団体のみなさまからの企画を募集しております",
-			url: <p1>E-mail&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:outside&#64;kit-festival.jp">outside@kit-festival.jp</a></p1>
+			content: "外部団体のみなさまからの企画を募集しております。また、今年度は学内団体のみの募集とさせていただきます",
+			url: <p1>E-mail&nbsp;&nbsp;&nbsp;<a href="mailto:outside&#64;kit-festival.jp">outside@kit-festival.jp</a></p1>
 		},
 		{
 			title: '内部企画募集',

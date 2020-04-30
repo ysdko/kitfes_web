@@ -69,7 +69,7 @@ export default function Dashboard() {
 			url: <p1>E-mail&nbsp;&nbsp;&nbsp;<a href="mailto:outside&#64;kit-festival.jp">outside@kit-festival.jp</a></p1>
 		},
 		{
-			title: '内部企画募集',
+			title: '委員企画募集',
 			content: '実行委員による企画の参加者を募集しております'
 		},
 	];

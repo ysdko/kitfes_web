@@ -40,7 +40,7 @@ const box1={
   date: 'Nov 12',
   description:
   '工大祭についての情報を掲載しております',
-  image: '/hanabi.jpg',
+  image: '/hanabi3.jpg',
   imageText: 'Image Text',
   url:'/about'
 }

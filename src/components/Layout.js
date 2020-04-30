@@ -111,6 +111,7 @@ export default function Demo() {
                 <Paper style={{
                   backgroundImage: "url(/kit.jpg)", backgroundSize: "cover", 
                   width: '100%',
+                  minHeight: '200px',
                   paddingTop: '35%'
                   // paddingTop: '75%'
                 }}>

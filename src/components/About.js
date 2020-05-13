@@ -51,16 +51,33 @@ export default function About() {
 					<div className={classes.appBarSpacer} />
 						<Container maxWidth="lg" className={classes.container}>
 							<Paper >
-								<div style={{ marginRight: "40" }}>
+								
 					<div style={{
 						borderBottom: '2px solid red'
 					}}>
 						<h1 style={{
 							marginLeft: 30
 						}}>工大祭とは</h1>
-					</div>
+								</div>
+								{/* <Paper style={{
+									backgroundImage: "url(/hanabi_header.jpg)", backgroundSize: "cover",
+									width: '100%'
+									// height: '250px',
+									// margin: 'auto',
+									// marginTop: '30',
+									// maxHeight: '40px',
+									// paddingTop: '20%px'
+									// paddingTop: '75%'
+								}}>
+								</Paper> */}
+								<img src="/bosyu_header.jpg" style={{ width: '100%' }}></img>
+								<div style={{ marginRight: "40" }}>
 					<Grid container direction="row" spacing={1} alignItems="center">
+										<Grid item xs={12} >
 
+									</Grid>
+									
+									
 						<Grid item>
 							<ArrowRightIcon fontSize="large" style={{ color: "gray" }} />
 						</Grid>
@@ -111,7 +128,7 @@ export default function About() {
 				<div>
 
 									</div>
-								</div>
+									</div>
 							</Paper>
 							<Box pt={4}>
 								<Footer />

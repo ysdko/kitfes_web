@@ -101,13 +101,18 @@ export default function Demo() {
       <div className={classes.root}>
         <header>
           <Menu />
+          
         </header>
-        <main className={classes.content} style={{paddingLeft:"50"}}>
+        <main className={classes.content} style={{ paddingLeft: "50" }}>
+          
           <div className={classes.appBarSpacer} />
+          
           <Container maxWidth="lg" className={classes.container}>
+            
             <Grid container spacing={3}>
               {/* Chart */}
               <Grid item xs={12} >
+               
                 <Paper style={{
                   backgroundImage: "url(/kit.jpg)", backgroundSize: "cover", 
                   width: '100%',
@@ -120,10 +125,13 @@ export default function Demo() {
                    <HeroText />
                     </div>
                 </Paper>
+                <h3 style={{ fontWeight: "bold", color: "black", fontWeight: "bolder", padding: '0.5vw', marign: '0px', width: "100%", backgroundColor: "gray", textAlign: 'center' }}>
+                  <a style={{ color: 'black', textDecoration: 'none'}} href="https://www.kyutech.ac.jp/whats-new/important/entry-7473.html">新型コロナウイルスに関する本学の情報はこちら</a></h3>
                 {/* <Slideshow /> */}
               </Grid>
+              
               <Grid item xs={12} lg={12} >
-                <h1 style={{ textAlign: 'center', borderBottom: '2px solid red', fontSize: "4vw" }}>2020年11月21日(土)22日(日)開催！</h1>
+                <h1 style={{ textAlign: 'center', borderBottom: '2px solid red', fontSize: "4.5vw", fontWeight:'bold' }}>2020年11月21日(土)22日(日)予定！</h1>
                 <h2 style={{ textAlign: 'center', fontSize: "4vw" }}>九州工業大学飯塚キャンパス</h2>
               </Grid>
               <Grid item xs={12} lg={12} >

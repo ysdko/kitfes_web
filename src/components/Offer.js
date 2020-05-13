@@ -72,6 +72,10 @@ export default function Dashboard() {
 			title: '委員企画募集',
 			content: '実行委員による企画の参加者を募集しております'
 		},
+		{
+			title: '模擬店募集',
+			content: '模擬店出展団体（九工大生に限る）を募集しております'
+		},
 	];
 	const classes = useStyles();
 	const [open, setOpen] = React.useState(true);

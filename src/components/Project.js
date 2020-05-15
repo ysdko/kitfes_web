@@ -48,6 +48,7 @@ export default function Project() {
 									marginLeft: 30
 								}}>企画一覧</h1>
 							</div>
+							<img src="/kikaku.jpg" style={{ width: '100%', height: '27vw', objectFit: 'cover' }}></img>
 							<Grid container direction="row" spacing={1} alignItems="center">
 
 								<Grid item>

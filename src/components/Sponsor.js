@@ -53,6 +53,7 @@ export default function Sponsor() {
 									marginLeft: 30,
 								}}>ご協賛・広告</h1>
 							</div>
+							<img src="/sponsor.jpg" style={{ width: '100%', height: '25vw', objectFit: 'cover' }}></img>
 							<Grid container direction="row" spacing={1} alignItems="center">
 								
 								<Grid item>

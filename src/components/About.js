@@ -70,7 +70,7 @@ export default function About() {
 									// paddingTop: '75%'
 								}}>
 								</Paper> */}
-								<img src="/bosyu_header.jpg" style={{ width: '100%' }}></img>
+								<img src="/hanabi3.jpg" style={{ width: '100%', height: '25vw',objectFit: 'cover'}}></img>
 								<div style={{ marginRight: "40" }}>
 					<Grid container direction="row" spacing={1} alignItems="center">
 										<Grid item xs={12} >

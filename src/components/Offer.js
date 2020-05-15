@@ -65,7 +65,9 @@ export default function Dashboard() {
 	const lists = [
 		{
 			title: '外部企画募集',
-			content: "外部団体のみなさまからの企画を募集しております。また、今年度は学内団体のみの募集とさせていただきます",
+			content: "外部のみなさまからの企画を募集しております。参加を検討されている方は以下の募集要項をご精読の上、QRコードまたはURLより公式LINEへの友達追加をお願いします！",
+			youkou: <a href="第６０回工大祭外部企画募集要項.pdf">外部企画募集要項</a>,
+			line: <a href="https://lin.ee/2Tj4VFckD">外部企画公式LINE</a>,
 			url: <p1>E-mail&nbsp;&nbsp;&nbsp;<a href="mailto:outside&#64;kit-festival.jp">outside@kit-festival.jp</a></p1>
 		},
 		{
@@ -74,7 +76,10 @@ export default function Dashboard() {
 		},
 		{
 			title: '模擬店募集',
-			content: '模擬店出展団体（九工大生に限る）を募集しております'
+			content: '模擬店出店団体を募集しております。模擬店の出店を考えている方はチラシ記載のQRコードまたはURLより公式LINEに友達追加をお願いします！',
+			youkou: <a href="模擬店チラシ.pdf">模擬店企画チラシ</a>,
+			line: <a href="https://lin.ee/7qM0TyO">模擬店企画公式LINE</a>,
+			url: <p1>E-mail&nbsp;&nbsp;&nbsp;<a href="mailto:mogi&#64;kit-festival.jp">mogi@kit-festival.jp</a></p1>
 		},
 	];
 	const classes = useStyles();
@@ -108,7 +113,8 @@ export default function Dashboard() {
 									<h1 style={{
 										marginLeft: 30
 									}}>企画募集</h1>
-								</div>
+									</div>
+									<img src="/bosyu.jpg" style={{ width: '100%', height: '25vw', objectFit: 'cover' }}></img>
 								{lists.map((post) => (
 									<Lists key={post.key} list={post} />
 								))}

@@ -67,7 +67,10 @@ export default function Access(){
 										<h1 style={{
 											marginLeft: 30
 										}}>アクセス</h1>
-									</div>
+								</div>
+								<div style={{marginBottom: '30px'}}>
+									<img src="/access.jpg" style={{ width: '100%', height: '25vw', objectFit: 'cover' }}></img>
+								</div>
 									<div style={{ textAlign: 'center' }}>
 										<div dangerouslySetInnerHTML={{ __html: inputhtml }} style={{ margin: '0 auto' }} />
 										</div> 

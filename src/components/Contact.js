@@ -54,6 +54,7 @@ export default function Contact() {
 									marginLeft: 30
 								}}>お問い合わせ</h1>
 							</div>
+							<img src="/contact.jpg" style={{ width: '100%', height: '25vw', objectFit: 'cover' }}></img>
 							<Grid container direction="row" spacing={1} alignItems="center">
 								
 								<Grid item>

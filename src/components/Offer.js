@@ -66,9 +66,9 @@ export default function Dashboard() {
 		{
 			title: '外部企画募集',
 			content: "外部のみなさまからの企画を募集しております。参加を検討されている方は以下の募集要項をご精読の上、QRコードまたはURLより公式LINEへの友達追加をお願いします！",
-			youkou: <a href="第６０回工大祭外部企画募集要項.pdf">外部企画募集要項</a>,
-			line: <p>外部企画公式LINEへの友達追加は<br/><a href="https://lin.ee/2Tj4VFckD">こちら</a>から</p>,
-			url: <p1>E-mail&nbsp;&nbsp;&nbsp;<a href="mailto:outside&#64;kit-festival.jp">outside@kit-festival.jp</a></p1>
+			youkou: <li><a href="第６０回工大祭外部企画募集要項.pdf">外部企画募集要項</a></li>,
+			line: <li><p1>外部企画公式LINEへの友達追加は<a href="https://lin.ee/2Tj4VFckD">こちら</a>から</p1></li>,
+			url: <li><p1>E-mail&nbsp;&nbsp;&nbsp;<a href="mailto:outside&#64;kit-festival.jp">outside@kit-festival.jp</a></p1></li>
 		},
 		{
 			title: '委員企画募集',
@@ -77,9 +77,9 @@ export default function Dashboard() {
 		{
 			title: '模擬店募集',
 			content: '模擬店出店団体を募集しております。模擬店の出店を考えている方はチラシ記載のQRコードまたはURLより公式LINEに友達追加をお願いします！',
-			youkou: <a href="模擬店チラシ.pdf">模擬店企画チラシ</a>,
-			line: <p>模擬公式LINEへの友達追加は<br/><a href="https://lin.ee/7qM0TyO">こちら</a>から</p>,
-			url: <p1>E-mail&nbsp;&nbsp;&nbsp;<a href="mailto:mogi&#64;kit-festival.jp">mogi@kit-festival.jp</a></p1>
+			youkou: <li><a href="模擬店チラシ.pdf">模擬店企画チラシ</a></li>,
+			line: <li><p1>模擬公式LINEへの友達追加は<a href="https://lin.ee/7qM0TyO">こちら</a>から</p1></li>,
+			url: <li><p1>E-mail&nbsp;&nbsp;&nbsp;<a href="mailto:mogi&#64;kit-festival.jp">mogi@kit-festival.jp</a></p1></li>
 		},
 	];
 	const classes = useStyles();

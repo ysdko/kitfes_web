@@ -63,9 +63,9 @@ export default function Contact() {
 								<Grid item><h2>工大祭実行委員会</h2></Grid>
 							</Grid>
 							<div style={{ marginLeft: "45" }}>
-							<p1>E-mail&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:iizuka&#64;kit-festival.jp">iizuka@kit-festival.jp</a></p1><br/><br/>
-							<p1>住所&nbsp;&nbsp;&nbsp;&nbsp;820-8502</p1><br></br>
-							<p1>福岡県飯塚市川津680-4製作作業室7</p1>
+								<p1 style={{ fontSize: '18' }}>E-mail&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:iizuka&#64;kit-festival.jp">iizuka@kit-festival.jp</a></p1><br/><br/>
+								<p1 style={{ fontSize: '18' }}>住所&nbsp;&nbsp;&nbsp;&nbsp;820-8502</p1><br></br>
+								<p1 style={{ fontSize: '18' }}>福岡県飯塚市川津680-4製作作業室7</p1>
 							</div>
 							<Grid container direction="row" spacing={1} alignItems="center">
 								<Grid item>
@@ -74,7 +74,7 @@ export default function Contact() {
 								<Grid item><h2>ご協賛・広告費について</h2></Grid>
 							</Grid>
 							<div style={{ marginLeft: "45" }}>
-							<p1><a href="/sponsor">こちら</a>のページよりお問い合わせをお願いします。</p1>
+								<p1 style={{ fontSize: '18' }}><a href="/sponsor">こちら</a>のページよりお問い合わせをお願いします。</p1>
 							</div>
 
 							<Grid container direction="row" spacing={1} alignItems="center">
@@ -84,7 +84,7 @@ export default function Contact() {
 								<Grid item><h2>外部企画について</h2></Grid>
 							</Grid>
 							<div style={{ marginLeft: "45" }}>
-							<p1><a href="/offer">こちら</a>のページよりお問い合わせをお願いします。</p1>
+								<p1 style={{ fontSize: '18' }}><a href="/offer">こちら</a>のページよりお問い合わせをお願いします。</p1>
 							</div>
 
 							<Grid container direction="row" spacing={1} alignItems="center">
@@ -94,8 +94,8 @@ export default function Contact() {
 								<Grid item><h2>模擬店について</h2></Grid>
 							</Grid>
 							<div style={{ marginLeft: "45" }}>
-							<p1>以下のメールアドレスよりお問い合わせをお願いします。</p1><br/>
-							<p1>E-mail&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:mogi&#64;kit-festival.jp">mogi@kit-festival.jp</a></p1>
+							<p1 style={{fontSize:'18'}}>以下のメールアドレスよりお問い合わせをお願いします。</p1><br/>
+							<p1 style={{ fontSize: '18' }}>E-mail&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:mogi&#64;kit-festival.jp">mogi@kit-festival.jp</a></p1>
 							</div>
 						
 						</Paper>

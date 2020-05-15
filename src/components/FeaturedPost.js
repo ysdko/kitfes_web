@@ -19,7 +19,8 @@ const useStyles = makeStyles({
 		flex: 1,
 	},
 	cardMedia: {
-		width: 160,
+		width: '100%',
+		height:200,
 	},
 	
 });
@@ -31,10 +32,12 @@ export default function FeaturedPost(props) {
 	return (
 
 		<CardActionArea>
-					<Link to={post.url} style={{ textDecoration: "none" }}>
+			<Link to={post.url} style={{ textDecoration: "none" }}>
 			<Card className={classes.card}>
 					<div className={classes.cardDetails}>
+						<CardMedia className={classes.cardMedia} image={post.image} title={post.imageTitle} />
 						<CardContent>
+							
 							<Typography component="h2" variant="h5">
 								{post.title}
 							</Typography>
@@ -46,12 +49,12 @@ export default function FeaturedPost(props) {
 							</Typography>
 							<Typography variant="subtitle1" color="primary">
 								Continue reading...
-              </Typography>
+              				</Typography>
 						</CardContent>
 					</div>
-					<Hidden >
+					{/* <Hidden >
 						<CardMedia className={classes.cardMedia} image={post.image} title={post.imageTitle} />
-					</Hidden>
+					</Hidden> */}
 				</Card>
 			</Link>
 				</CardActionArea>

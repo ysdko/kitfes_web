@@ -79,7 +79,7 @@ export default function Sponsor() {
 								<div style={{marginLeft: "40" }}>
 									<p style={{ fontSize: "18"}}>工大祭では毎年多くの企業・団体様からご協賛物品をいただいております.
 							いただいたご協賛品につきましては紹介などもさせていただいております。ご検討いただける企業様につきましては以下のメールアドレスよりお気軽にお問い合わせください。</p>
-									<p style={{ fontSize: "20", color: "red" }}>なお、募集開始は6/30以降とさせていただきます。</p>
+									<p style={{ fontSize: "20", color: "red" }}>なお、大学への入構制限に伴い募集開始は6/30以降を予定とさせていただきます。</p>
 							<p1>E-mail&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:sponsor&#64;kitfestival.jp">sponsor@kit-festival.jp</a></p1>
 								</div>
 
@@ -92,7 +92,7 @@ export default function Sponsor() {
 								<div style={{marginLeft: "40" }}>
 									<p style={{ fontSize: "18" }}>工大祭では毎年多くの企業・団体より広告費をいただいております。ご協力いただけた企業・団体・個人様につきましては実行委員会が発行する工大祭のパンフレットへの掲載をいたします。<br>
 							</br>ご検討いただける企業様につきましては以下のメールアドレスよりお気軽にお問い合わせください。</p>
-									<p style={{ fontSize: "20", color: "red" }}>なお、募集開始は6/30以降とさせていただきます。</p>
+									<p style={{ fontSize: "20", color: "red" }}>なお、大学への入構制限に伴い募集開始は6/30以降を予定させていただきます。</p>
 								<p1>E-mail&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:contact&#64;kitfestival.jp">contact@kit-festival.jp</a></p1>
 								</div>
 							</div>

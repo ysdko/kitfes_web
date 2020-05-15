@@ -48,7 +48,7 @@ const box2 = {
   title: '企画一覧',
   date: 'Nov 12',
   description:
-    '企画の一覧を見ることができます',
+    '工大祭企画の一覧を見ることができます',
   image: '/kikaku.jpg',
   imageText: 'Image Text',
   url:'project'

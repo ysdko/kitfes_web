@@ -46,7 +46,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Access(){
 		const classes = useStyles();
-		let inputhtml = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2348.399957535865!2d130.67103232208675!3d33.653558267277496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35417fd4f7759849%3A0xb3b26a2563cccd95!2z6Kqy5aSW5rS75YuV5pa96KitICjjgrXjg7zjgq_jg6vmo58p!5e0!3m2!1sja!2sjp!4v1584590584348!5m2!1sja!2sjp" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0""margin= 0 auto"></iframe>'
+		let inputhtml = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2348.399957535865!2d130.67103232208675!3d33.653558267277496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35417fd4f7759849%3A0xb3b26a2563cccd95!2z6Kqy5aSW5rS75YuV5pa96KitICjjgrXjg7zjgq_jg6vmo58p!5e0!3m2!1sja!2sjp!4v1584590584348!5m2!1sja!2sjp" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>'
 		return (
 			<React.Fragment>
 				<ScrollToTop/>
@@ -72,7 +72,7 @@ export default function Access(){
 									<img src="/access.jpg" style={{ width: '100%', height: '25vw', objectFit: 'cover' }}></img>
 								</div>
 									<div style={{ textAlign: 'center' }}>
-										<div dangerouslySetInnerHTML={{ __html: inputhtml }} style={{ margin: '0 auto' }} />
+										<div dangerouslySetInnerHTML={{ __html: inputhtml }} style={{ margin: '30' }} />
 										</div> 
 								
 									{/* </Grid> */}
@@ -88,7 +88,7 @@ export default function Access(){
 
 								<div style={{ marginLeft: 45, marginRight: 20}}>
 										<h3>電車の場合</h3>
-										<p1>電車をご利用の方は、JR新飯塚駅でお降りください。<br/>
+										<p1 style={{fontSize:18}}>電車をご利用の方は、JR新飯塚駅でお降りください。<br/>
 										当日は本大学よりスクールバスが出ますので、ぜひご利用ください。<br/>
 										詳しくは
 										<a href="http://www.iizuka.kyutech.ac.jp/campuslife/school-bus">こちら</a>のページをご覧ください。</p1>
@@ -96,7 +96,7 @@ export default function Access(){
 								
 								        <div style={{ marginLeft: 45 }}>
 										<h3>バスの場合</h3>
-										<p1>バスをご利用の方は、飯塚バスセンターでお乗り換えください。<br/>
+										<p1 style={{ fontSize: 18 }}>バスをご利用の方は、飯塚バスセンターでお乗り換えください。<br/>
 										上記のように、当日は本大学よりスクールバスが出ますので、ぜひご利用ください。<br/>
 										詳しくは
 									<a href="http://www.iizuka.kyutech.ac.jp/campuslife/school-bus">こちら</a>のページをご覧ください。</p1>

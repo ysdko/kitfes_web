@@ -33,9 +33,7 @@ export const mainListItems = (
 		<ListItem button>
 			<ListItemIcon>
 				<InfoIcon />
-				
 			</ListItemIcon>
-				
 				<ListItemText primary="工大祭とは" />
 			
 		</ListItem>

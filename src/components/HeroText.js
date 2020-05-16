@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Typist from 'react-typist';
-
+import TypistLoop from 'react-typist-loop'
 export default class HeroText extends Component {
 
   render() {
@@ -23,7 +23,7 @@ export default class HeroText extends Component {
             <Typist.Delay ms={500} />
             {/* <span>sudo apt update</span> */}
             </div>
-        </Typist>
+          </Typist>
       </React.Fragment>
     )
   }
